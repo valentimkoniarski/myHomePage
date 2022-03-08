@@ -108,17 +108,30 @@ body {
 }
 
 .card {
-  margin-top: 50px;
-  width: 200px;
-  height: 200px;
-  border-radius: 20px;
   margin: 0 auto;
-  margin-bottom: 50px;
+  border: #0b1326;
+  width: "100px";
+  height: "100px";
+  background-color: #0b1326;
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 50px;
+  color: white;
+}
+
+.card-img-top {
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  border-radius: 2px;
 }
 
 .card-body {
-  background-color: aqua;
-  border-radius: 20px;
+  background-color: #194f85;
+  color: black;
+  margin: auto;
+  width: 50%;
+  border-radius: 2px;
 }
 
 .social-media {
